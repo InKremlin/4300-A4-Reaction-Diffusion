@@ -1,4 +1,4 @@
-import { default as seagulls } from '/4300-A4-Reaction-Diffusion/gulls.js'
+import { default as seagulls } from './gulls.js'
 
 const sg      = await seagulls.init()
 const frag    = await seagulls.import( './frag.wgsl' )
